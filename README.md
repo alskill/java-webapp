@@ -15,3 +15,8 @@ install
      │
 deploy
 ```
+---------------------
+## Install git 
+
+```bash
+
