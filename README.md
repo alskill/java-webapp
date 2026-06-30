@@ -40,4 +40,17 @@ git push origin main
 ``` bash
 pwd
 ```
+it should be folder on laptop where project is stored
+You should see:
+
+/Users/almal/OneDrive/Desktop/devops
+
+Then create the Jenkins folder:
+```bash
+mkdir jenkins
+```
+```bash
+cd jenkins
+```
+
 
