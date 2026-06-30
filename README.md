@@ -188,11 +188,8 @@ Credentials
 
 Credentials Binding
 
-### UI helper
-
-Pipeline Stage View
-
 ## STEP 3 — Install Docker
+
 After core plugins are done, install:
 
 Docker
