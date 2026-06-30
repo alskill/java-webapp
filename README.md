@@ -101,7 +101,7 @@ Unlock Jenkins
 ## Step 7: Get the initial administrator password
 
 ```bash
-docker exec jenkins -it /bin/bash
+docker exec -it jenkins bash
 ```
 ```bash
 cat /var/jenkins_home/secrets/initialAdminPassword
