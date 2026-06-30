@@ -35,4 +35,9 @@ git commit -m "Initial commit"
 ```bash
 git push origin main
 ```
+-----------
+## create jenkins server
+``` bash
+pwd
+```
 
