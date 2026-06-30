@@ -244,10 +244,66 @@ Set:
 ```bash
 Jenkinsfile
 ```
+### STEP 3 — Create Jenkinsfile in your project
 
+Inside your local project:
+```bash
+cd ~/OneDrive/Desktop/devops/java-webapp
+```
+Create file:
+```bash
+Jenkinsfile
+```
+STEP 4 — Add this basic pipeline
 
+Paste this:
+```bash
+pipeline {
+    agent any
 
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/alskill/java-webapp.git'
+            }
+        }
 
+        stage('Build WAR') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t java-webapp:v1 .'
+            }
+        }
+
+        stage('Run Container') {
+            steps {
+                sh 'docker run -d -p 8080:8080 java-webapp:v1'
+            }
+        }
+    }
+}
+
+```
+
+### STEP 5 — Push Jenkinsfile to GitHub
+
+```bash
+git add Jenkinsfile
+git commit -m "add jenkins pipeline"
+git push origin main
+```
+### STEP 6 — Run Jenkins Job
+
+Go back to Jenkins → click:
+```bash
+Build Now
+```
 
 
 
