@@ -228,8 +228,10 @@ Select:  Git
 
 Repository URL
 
-Paste your repo:   https://github.com/alskill/java-webapp.git
-
+Paste your repo:   
+```bash
+https://github.com/alskill/java-webapp.git
+```
 Branch
 
 Set: 
