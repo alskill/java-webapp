@@ -196,13 +196,39 @@ Docker
 
 Docker Pipeline
 
-## STEP 5 — After plugin install
+## STEP 4 — After plugin install
 
 Jenkins will ask:
 
 Restart Jenkins → click YES
+------------------------------------
+## STEP 1 — Create your first Jenkins job
 
+Go to Jenkins Dashboard
 
+Click:  New Item
+
+Enter name:   java-webapp-pipeline
+
+Select:   Pipeline
+
+Click OK
+
+### STEP 2 — Configure GitHub repo
+
+Scroll to Pipeline section
+
+You’ll see:  Definition
+
+Select:  Pipeline script from SCM
+
+SCM
+
+Select:  Git
+
+Repository URL
+
+Paste your repo:   https://github.com/alskill/java-webapp.git
 
 
 
