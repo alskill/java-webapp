@@ -130,6 +130,52 @@ Email: Your email
 
 Click Save and Continue.
 
+## Step 11: Jenkins URL
+
+Keep the default:
+```bash
+http://localhost:8080/
+```
+Click Save and Finish.
+
+## Step 12: Welcome to Jenkins!
+
+You should now see the Jenkins dashboard.
+Stop and Start Jenkins
+
+Stop:
+```bash
+docker stop jenkins
+```
+Start:
+```bash
+docker start jenkins
+```
+Restart:
+```bash
+docker restart jenkins
+```
+View logs:
+```bash
+docker logs jenkins
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
