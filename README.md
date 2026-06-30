@@ -230,6 +230,19 @@ Repository URL
 
 Paste your repo:   https://github.com/alskill/java-webapp.git
 
+Branch
+
+Set: 
+```bash
+*/main
+```
+Script Path
+
+Set:
+```bash
+Jenkinsfile
+```
+
 
 
 
