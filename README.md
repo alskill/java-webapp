@@ -1,3 +1,17 @@
 # java-webapp
-
-hi good job
+life cycle of maven 
+```bash
+validate
+     │
+compile
+     │
+test
+     │
+package
+     │
+verify
+     │
+install
+     │
+deploy
+```
