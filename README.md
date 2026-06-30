@@ -159,6 +159,53 @@ View logs:
 ```bash
 docker logs jenkins
 ```
+-------------------------------------
+## STEP 1 — Install Plugins (Correct Way)
+
+Go to:
+
+``` bash
+manage jenkins  → Plugins
+```
+Then click:
+
+Available plugins
+
+## STEP 2 — Install ONLY these first
+
+Install one by one (search and tick):
+Core CI/CD plugins
+
+Git
+
+GitHub
+
+Pipeline
+
+### Credentials support
+
+Credentials
+
+Credentials Binding
+
+### UI helper
+
+Pipeline Stage View
+
+## STEP 3 — Install Docker
+After core plugins are done, install:
+
+Docker
+
+Docker Pipeline
+
+## STEP 5 — After plugin install
+
+Jenkins will ask:
+
+Restart Jenkins → click YES
+
+
 
 
 
